@@ -1,0 +1,19 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_param_novedades(id_novedad, nom_novedad) VALUES 
+(1,'Liquidada 0 (cero) meses de operación'),
+(2,'Cambio de sector por el proceso operativo'),
+(3,'Inactivo'),
+(4,'Sin localizar'),
+(5,'Deuda'),
+(6,'Duplicadas'),
+(9,'Ingresa a la muestra como nuevo'),
+(10,'Fusionado'),
+(12,'Escisión'),
+(13,'Absorción'),
+(18,'Vivienda con actividad económica'),
+(19,'Cambio de sector por mala clasificación original y no pertenece al universo de estudio'),
+(41,'Sin localizar con probabilidad de cierre'),
+(97,'Liquidada con 1 o más meses de operación'),
+(98,'Para las imputadas deuda'),
+(99,'Rinde');

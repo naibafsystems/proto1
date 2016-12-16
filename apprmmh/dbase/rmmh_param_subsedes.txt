@@ -1,0 +1,27 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (13,'Cartagena',8);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (44,'Riohacha',8);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (88,'San Andres',8);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (47,'Santa Marta',8);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (70,'Sincelejo',8);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (20,'Valledupar',8);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (25,'Cundinamarca',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (18,'Florencia',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (41,'Neiva',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (95,'San Jose del Guaviare',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (15,'Tunja',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (50,'Villavicencio',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (85,'Yopal',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (91,'Amazonas',11);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (81,'Arauca',68);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (54,'Cucuta',68);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (86,'Mocoa',76);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (52,'Pasto',76);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (19,'Popayan',76);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (63,'Armenia',17);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (73,'Ibague',17);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (66,'Pereira',17);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (23,'Monteria',5);
+INSERT INTO rmmh_param_subsedes (id_subsede, nom_subsede, fk_sede) VALUES (27,'Quibdo',5);
+

@@ -1,0 +1,10 @@
+
+  USE dimpe_rmmh;
+
+	INSERT INTO rmmh_param_roles(id_rol, nom_rol) VALUES (1,'Fuente');
+	INSERT INTO rmmh_param_roles(id_rol, nom_rol) VALUES (2,'Crítico');
+	INSERT INTO rmmh_param_roles(id_rol, nom_rol) VALUES (3,'Asistente Técnico');
+	INSERT INTO rmmh_param_roles(id_rol, nom_rol) VALUES (4,'Administrador');
+	INSERT INTO rmmh_param_roles(id_rol, nom_rol) VALUES (5,'Logística');
+	INSERT INTO rmmh_param_roles(id_rol, nom_rol) VALUES (6,'Temática');
+	INSERT INTO rmmh_param_roles(id_rol, nom_rol) VALUES (7,'Directivos');

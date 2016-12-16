@@ -1,0 +1,8 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_param_sedes (id_sede, nom_sede) VALUES (8,'Barranquilla');
+INSERT INTO rmmh_param_sedes (id_sede, nom_sede) VALUES (11,'Bogota');
+INSERT INTO rmmh_param_sedes (id_sede, nom_sede) VALUES (68,'Bucaramanga');
+INSERT INTO rmmh_param_sedes (id_sede, nom_sede) VALUES (76,'Cali');
+INSERT INTO rmmh_param_sedes (id_sede, nom_sede) VALUES (17,'Manizales');
+INSERT INTO rmmh_param_sedes (id_sede, nom_sede) VALUES (5,'Medellin');

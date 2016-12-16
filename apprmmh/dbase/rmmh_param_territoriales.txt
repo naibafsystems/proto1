@@ -1,0 +1,6 @@
+INSERT INTO rmmh_param_territoriales (id_territorial, nom_territorial) VALUES (1,'Norte');
+INSERT INTO rmmh_param_territoriales (id_territorial, nom_territorial) VALUES (2,'Centro');
+INSERT INTO rmmh_param_territoriales (id_territorial, nom_territorial) VALUES (3,'Nor Oriente');
+INSERT INTO rmmh_param_territoriales (id_territorial, nom_territorial) VALUES (4,'Sur Occidente');
+INSERT INTO rmmh_param_territoriales (id_territorial, nom_territorial) VALUES (5,'Centro Occidente');
+INSERT INTO rmmh_param_territoriales (id_territorial, nom_territorial) VALUES (6,'Nor Occidente');

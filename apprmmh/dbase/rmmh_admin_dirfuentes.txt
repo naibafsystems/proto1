@@ -1,0 +1,4 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_admin_dirfuentes (nro_orden, idproraz, idnomcom, idsigla, iddirecc, idtelno, idfaxno, idaano, idcorreo, finicial, ffinal, fk_depto, fk_mpio, fk_actividad, fk_sede)
+VALUES (12345,'Registro de Prueba','Registro de Prueba','REGPRUEBA','Calle 11 Nro 11 - 11',123456789,123456789,123456789,'regpruebas@localhost.com','2012-04-01','2012-04-30',11,3,7421,11);

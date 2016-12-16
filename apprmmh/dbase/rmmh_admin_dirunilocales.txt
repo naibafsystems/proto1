@@ -1,0 +1,4 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_admin_dirunilocales(id_unilocal, nom_unilocal) VALUES
+(1,'Unidad local de prueba');

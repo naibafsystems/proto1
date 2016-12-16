@@ -1,0 +1,9 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_param_estados (id_estado, nom_estado) VALUES
+(0,'Sin distribuir'),
+(1,'Distribuidas'),
+(2,'En Digitacion'),
+(3,'Digitados'),
+(4,'Análisis - Verificación'),
+(5,'Verificados');

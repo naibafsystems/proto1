@@ -1,0 +1,302 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		margin: 10px auto 10px auto;
+		background-image:url('../images/bg.png');
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 0.75em;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	#header{
+		background-color: #FFFFFF;
+		background-image:url('../images/logo.png');
+		background-repeat: no-repeat;
+		height: 100px;		
+	}
+	
+	#header #periodo{
+		text-align: right;
+		padding-right: 20px;
+		font-size: 14px;			
+	}
+	
+	#header #usuario{
+		text-align: right;
+		padding-right: 20px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+	}
+	
+	#header #textlogo{		
+		text-align: right;
+		padding-right: 20px;
+		padding-top: 22px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 1em;
+		font-weight: bolder; 
+	}
+	
+	#menu{
+		height: 25px;
+		background-color: #DFDFDF;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 12px;
+		color: #333333;
+	}
+	
+	#menu ul{
+		padding-top: 3px;
+   		padding-left: 8px;
+   		margin: 0px;   		
+   		list-style: none;   		
+   		width: 100%;
+   		height: 30px;
+   		float: left;
+	}
+	
+	#menu ul li{
+		display: inline;
+		padding-left: 2px;
+		padding-right: 8px;		
+		border-right: 1px solid #E00078;
+	}
+	
+	#menu a:link {text-decoration:none; color: #E00078;} 
+	#menu a:visited {text-decoration:none; color:#E00078; } 	
+	#menu a:hover {text-decoration:underline; color:#E00078;}
+	
+	#menu select{
+		background-color: #DFDFDF;
+		font-size: 12px;
+		
+	}
+	
+	#container{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 0.9em;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	#container2{
+	    background-color: #FFFFFF;
+		text-align: justify;
+		line-height: 18px;		
+	}
+	
+	#container2 #contenido{
+		padding: 8px 8px 8px 8px;
+	}
+	
+	#container2 #contenido #login{
+		padding-left: 38%;
+	}
+	
+	#container2 h1{
+		padding-bottom: 10px;
+		font-size: 18px;
+		color: #E00078;
+	}
+	
+	#container2 .table{
+		border-collapse: collapse;
+		border: none;
+	}
+	
+	#container2 .table thead{
+		background-color: #DFDFDF;
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table tbody{
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table th{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table td{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table .row1{
+		height: 20px;
+		background-color: #FFFFFF;	
+	}
+	
+	#container2 .table .row2{
+		height: 20px;
+		background-color: #EFEFEF;
+	}
+	
+	#container2 .table1{
+		border-collapse: collapse;
+		border: none;
+	}
+	
+	#container2 .table1 thead{
+		background-color: #DFDFDF;
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table1 tbody{
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table1 th{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table1 td{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table1 .row1{
+		height: 20px;
+		background-color: #FFFFFF;	
+	}
+	
+	#container2 .table1 .row2{
+		height: 20px;
+		background-color: #EFEFEF;
+	}
+	
+	
+	
+	#container2 #contenido #content #tabs{
+		color: #0000ff;
+	}
+	
+	#footer{
+		background-color: #FFFFFF;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		line-height: 18px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 0.9em;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	
+	
+/*** CSS FORMULARIOS ***/	
+	
+	form label{
+		color: #333333;
+		padding-right: 20px;
+	}
+	
+	form .txtLogin{
+		border: 1px solid #DFDFDF;
+		border-radius: 5px;
+		padding: 2px 5px 2px 5px;
+		text-align: center;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 18px;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	form .textbox{
+		border: 1px solid #DFDFDF;
+		border-radius: 2px;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	form .button{
+		border: 1px solid #BCBCBC;
+		border-radius: 3px;
+		text-align: center;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	.textbox{
+		border: 1px solid #DFDFDF;
+		border-radius: 2px;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	.button{
+		border: 1px solid #BCBCBC;
+		border-radius: 3px;
+		text-align: center;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	.select{
+		border: 1px solid #DFDFDF;
+		border-radius: 3px;		
+		padding: 2px 2px 2px 2px;
+		font-family: Tahoma, Geneva, sans-serif;		
+		font-weight: normal;
+		color: #333333;
+	}
+
+	.fieldset{
+		padding: 10px 10px 10px 10px;
+		border: 1px solid #BCBCBC;
+	}
+
+	.redText{
+		color: #E00078;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+/*
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+*/
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+/*
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+/* } */

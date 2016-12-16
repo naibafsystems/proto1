@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index.php|public|css|js|images|robots.txt)
+RewriteRule ^(.*)$ /rmmh/index.php/$1 [L]

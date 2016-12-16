@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `dimpe_rmmh`.`rmmh_param_soportes`;
+
+CREATE TABLE  `dimpe_rmmh`.`rmmh_param_soportes` (
+  `id_soporte` int(11) NOT NULL AUTO_INCREMENT,
+  `nom_soporte` varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `tip_soporte` varchar(50) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `tam_soporte` varchar(20) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `bin_soporte` longblob,
+  `nro_orden` int(11) NOT NULL,
+  `nro_establecimiento` int(11) NOT NULL,
+  `ano_periodo` int(4) NOT NULL,
+  `mes_periodo` int(2) NOT NULL,
+  PRIMARY KEY (`id_soporte`),
+  KEY `fk_control_soportes` (`nro_orden`,`nro_establecimiento`,`ano_periodo`,`mes_periodo`)
+) ENGINE=INNODB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;

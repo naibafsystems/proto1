@@ -1,0 +1,4 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_admin_usuarios (id_usuario, num_identificacion, nom_usuario, pass_usuario, mail_usuario, fec_creacion, fec_vencimiento, nro_orden, fk_rol, fk_sede, fk_subsede, fk_tipodoc)
+VALUES (1,123456789,'Registro de Prueba',MD5('administrador'),'regpruebas@localhost.com','2012-04-01','2012-04-30',12345,1,11,25,1);

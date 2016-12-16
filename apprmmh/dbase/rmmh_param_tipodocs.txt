@@ -1,0 +1,6 @@
+USE dimpe_rmmh;
+
+INSERT INTO rmmh_param_tipodocs (id_tipodoc, nom_tipodoc) VALUES (1,'Nit');
+INSERT INTO rmmh_param_tipodocs (id_tipodoc, nom_tipodoc) VALUES (2,'Cédula de Ciudadanía');
+INSERT INTO rmmh_param_tipodocs (id_tipodoc, nom_tipodoc) VALUES (3,'Cédula de Extranjería');
+INSERT INTO rmmh_param_tipodocs (id_tipodoc, nom_tipodoc) VALUES (4,'Tarjeta de Identidad');
